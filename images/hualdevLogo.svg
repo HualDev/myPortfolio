@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="50" viewBox="0 0 400 50">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 112px;
+        fill: white;
+        font-family: Magneto;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <image id="Fondo" width="400" height="50" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAAyCAYAAAByHI2dAAAAz0lEQVR4nO3VMQHAMAzAsKwYw5/KiqG+JQh+/O3uPwDw6AgGQGEgACQGAkBiIAAkBgJAYiAAJAYCQGIgACQGAkBiIAAkBgJAYiAAJAYCQGIgACQGAkBiIAAkBgJAYiAAJAYCQGIgACQGAkBiIAAkBgJAYiAAJAYCQGIgACQGAkBiIAAkBgJAYiAAJAYCQGIgACQGAkBiIAAkBgJAYiAAJAYCQGIgACQGAkBiIAAkBgJAYiAAJAYCQGIgACQGAkBiIAAkBgJAYiAAJAYCwLuZubXvAl9VkwtGAAAAAElFTkSuQmCC"/>
+  <text id="_Hualdev_" data-name="&lt;Hualdev/&gt;" class="cls-1" transform="matrix(0.427, 0, 0, 0.427, 48.085, 40.909)">&lt;Hualdev/&gt;</text>
+</svg>

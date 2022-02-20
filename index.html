@@ -20,24 +20,27 @@
                     <img src="./images/hualdevLogo.svg" alt="Hualdev Logo">
                 </div>
 
-                <div class="navBar">
-                    <ul>
-                        <li>Inicio</li>
-                        <li>Hualdev</li>
-                        <li>Blog</li>
-                        <li>proyectos</li>
-                        <li>Contacto</li>
+                <div  class="navBar">
+                    <ul id="navBar" class="subMenu showMenu">
+                        <a href="#intro"><li>Inicio</li></a>
+                        <a href="https://github.com/HualDev" target="_blank"><li>Hualdev</li></a>
+                        <a href="https://www.blogger.com/profile/14276397994393606035" target="_blank"><li>Blog</li></a>
+                        <a href="#projects"><li>proyectos</li></a>
+                        <a href="#contact"><li>Contacto</li></a>
                     </ul>
-                    <img id="hamburger" src="./images/icon-hamburger.svg" alt="Hamburger Icon">
-                    <img id="closeHamburger" src="./images/icon-close-menu.svg" alt="Close Icon">
+                    <div id="hamb" class="hamb">
+                        <img id="hamburger" src="./images/icon-hamburger.svg" alt="Hamburger Icon">
+                        <img id="closeHamburger" class="closeHamburger" src="./images/icon-close-menu.svg" alt="Close Icon">
+                    </div>
+                    
                 </div>
             </nav>
 
-            <div class="intro">
+            <div id="intro" class="intro">
                 <div class="social">
-                    <i class="fab fa-twitter fa-lg"></i>
-                    <i class="fab fa-github fa-lg"></i>
-                    <i class="fab fa-linkedin fa-lg"></i>
+                    <a href="https://twitter.com/Hualdos" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="https://github.com/HualDev" target="_blank"><i class="fab fa-github fa-lg"></i></a>
+                    <a href="https://www.linkedin.com/in/hualdo/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
                 </div>
 
                 <div class="me">
@@ -56,7 +59,7 @@
                 <p class="pIntro">
                     Fronted Developer, apasionado por el desarrollo web y aplicaciones móbiles 
                 </p>
-                <button>Mis Proyectos</button>
+                <a href="#projects"><button>Mis Proyectos</button></a>
             </div>    
 
         </header>
@@ -120,7 +123,7 @@
 
         <hr>
 
-        <section class="projects">
+        <section id="projects" class="projects">
             <h1>Mis Proyectos</h1>
             <div class="myProjects">
                 <div class="app">
@@ -130,8 +133,8 @@
                         además puedes dividir el monto de la propina si se tiene que pagar entre varias personas.
                     </p>
                     <div class="appAction">
-                        <button>Aplicación</button>
-                        <button>Código</button>
+                        <a href="https://hualdev.github.io/tipCalculatorApp/" target="_blank"><button>Aplicación</button></a>
+                        <a href="https://github.com/HualDev/tipCalculatorApp" target="_blank"><button>Código</button></a>
                     </div>
                 </div>
 
@@ -142,8 +145,8 @@
                        teniendo en cuenta el límite máximo de miembros.
                    </p>
                    <div class="appAction">
-                        <button>Aplicación</button>
-                        <button>Código</button>
+                        <a href="https://hualdev.github.io/crowdfundingProduct/" target="_blank"><button>Aplicación</button></a>
+                        <a href="https://github.com/HualDev/crowdfundingProduct/tree/master" target="_blank"><button>Código</button></a>
                    </div> 
                 </div>
 
@@ -154,8 +157,8 @@
                        que permite una excelente visualización en diferentes equipos móbiles y PCs de escritorio.
                    </p>
                    <div class="appAction">
-                        <button>Aplicación</button>
-                        <button>Código</button>
+                        <a href="https://hualdev.github.io/BlogrLandingPage/" target="_blank"><button>Aplicación</button></a>
+                        <a href="https://github.com/HualDev/BlogrLandingPage/tree/master" target="_blank"><button>Código</button></a>
                    </div> 
                 </div>
 
@@ -165,8 +168,8 @@
                        Landing Page, con diseño responsive que permite una excelente visualización en diferentes tipos de equipos móbiles
                    </p>
                    <div class="appAction">
-                        <button>Aplicación</button>
-                        <button>Código</button>
+                        <a href="https://hualdev.github.io/SunnySideAgency/" target="_blank"><button>Aplicación</button></a>
+                        <a href="https://github.com/HualDev/SunnySideAgency/tree/master" target="_blank"><button>Código</button></a>
                    </div>                    
                 </div>
 
@@ -176,8 +179,8 @@
                        Aplicación que proporciona un reporte diario, semanal y mensual del tiempom dedicado a tus actividades principales.
                    </p>
                    <div class="appAction">
-                        <button>Aplicación</button>
-                        <button>Código</button>
+                        <a href="https://hualdev.github.io/TimeTrackingDashboard/" target="_blank"><button>Aplicación</button></a>
+                        <a href="https://github.com/HualDev/TimeTrackingDashboard/tree/master" target="_blank"><button>Código</button></a>
                    </div> 
                 </div>
                 
@@ -186,7 +189,7 @@
 
         <hr>
 
-        <section class="contact">
+        <section id="contact" class="contact">
             <h1>Contáctame</h1>
             <p>
                 Si tienes alguna consulta o tienes algún proyecto en mente, y te gustaría
@@ -208,14 +211,16 @@
         <footer>
             <h1>Mantente en contacto conmigo</h1>
             <div class="networks">
-                <div><i class="fab fa-twitter"></i></div>
-                <div><i class="fab fa-facebook-f"></i></div>
-                <div><i class="fab fa-instagram"></i></div>
-                <div><i class="fab fa-linkedin"></i></div>
-                <div><i class="fab fa-github"></i></div>
+                <a href="https://twitter.com/Hualdos" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/hcastillopichen" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/hualcap/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/hualdo/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/HualDev" target="_blank"><i class="fab fa-github"></i></a>
             </div>
             <h2>Copyright <i class="fas fa-copyright"></i> 2022</h2>
         </footer>
     </main>
+
+    <script src="./portfolio.js"></script>
 </body>
 </html>

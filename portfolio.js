@@ -29,6 +29,6 @@ function displayError(){
     else if(subject==''){
         document.getElementById('errorSubject').style.display='block'
         document.getElementById('subject').focus()
-    }
+    }    
     
 }

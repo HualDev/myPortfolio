@@ -200,14 +200,17 @@
             </p>
             <form name="contact" netlify>
                 <label for="name">Nombre</label><br>
-                <input type="text" name="name"><br><br>
+                <input id="name" type="text" name="name" placeholder="Nombre"><br><br>
+                <p id="errorName" class="errorName error">Ingresa tu Nombre</p>
                 <label for="email">Correo Electrónico</label><br>
-                <input type="email" name="email"><br><br>
+                <input id="email" type="email" name="email" placeholder="correo@ejemplo.com"><br><br>
+                <p id="errorEmail" class="errorEmail error">Ingresa un correo real</p>
                 <label for="subject">Asunto</label><br/>
-                <input type="text" name="subject"><br><br>
+                <input id="subject" type="text" name="subject"><br><br>
+                <p id="errorSubject" class="errorSubject error">Ingresa un asunto</p>
                 <label for="message">mensaje</label><br>
                 <textarea rows="5" cols="30" name="message"></textarea><br>
-                <input type="submit" value="Enviar">
+                <input id="submit" type="button" value="Enviar">
             </form>
         </section>
 

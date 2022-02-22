@@ -307,7 +307,7 @@ label{
     padding: 5px;
 }
 
-.contact input[type='submit']{
+.contact input[type='button']{
     width: 50%;
     display: block;
     margin:20px auto 10px;
@@ -323,6 +323,14 @@ label{
     color: #2b58aa;
     background-color: white;
     box-shadow: 0 3px 8px 0 rgb(0 0 0 / 80%);
+}
+
+.error{
+    margin: -25px 0 15px 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: tomato;
+    display: none;
 }
 
 footer{

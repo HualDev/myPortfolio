@@ -304,7 +304,7 @@ label{
     margin: 5px 0;
     border-radius: 5px;
     border: solid 2px #2b58aa;
-    padding: 8px 10px 8px 10px;
+    padding: 10px 8px;
     background-repeat: no-repeat;
     background-position: 95%;
 }
@@ -325,6 +325,22 @@ label{
     color: #2b58aa;
     background-color: white;
     box-shadow: 0 3px 8px 0 rgb(0 0 0 / 80%);
+}
+
+.contact input:focus{
+    outline-color: #2b58aa;   
+}
+
+.contact textarea:focus{
+    outline-color: #2b58aa;
+}
+
+.contact input::placeholder{
+    color: #4b7edd;
+    opacity: 0.3;
+    font-size: 14px;
+    font-weight: 600;
+    
 }
 
 .error{

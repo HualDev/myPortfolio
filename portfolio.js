@@ -17,21 +17,21 @@ function displayError(){
     subject=document.getElementById('subject').value
 
     if(nombre==''){
-        document.getElementById('errorName').style.display='block'
         document.getElementById('name').style.backgroundImage="url('./images/icon-error.svg')"
         document.getElementById('name').focus()
+        document.getElementById('name').style.outlineColor='tomato'
     }
 
     else if(mail==''){
-        document.getElementById('errorEmail').style.display='block'
         document.getElementById('email').style.backgroundImage="url('./images/icon-error.svg')"
         document.getElementById('email').focus()
+        document.getElementById('email').style.outlineColor='tomato'
     }
 
     else if(subject==''){
-        document.getElementById('errorSubject').style.display='block'
         document.getElementById('subject').style.backgroundImage="url('./images/icon-error.svg')"
         document.getElementById('subject').focus()
+        document.getElementById('subject').style.outlineColor='tomato'
     }      
     
 }

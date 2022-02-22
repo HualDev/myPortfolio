@@ -18,17 +18,20 @@ function displayError(){
 
     if(nombre==''){
         document.getElementById('errorName').style.display='block'
+        document.getElementById('name').style.backgroundImage="url('./images/icon-error.svg')"
         document.getElementById('name').focus()
     }
 
     else if(mail==''){
         document.getElementById('errorEmail').style.display='block'
+        document.getElementById('email').style.backgroundImage="url('./images/icon-error.svg')"
         document.getElementById('email').focus()
     }
 
     else if(subject==''){
         document.getElementById('errorSubject').style.display='block'
+        document.getElementById('subject').style.backgroundImage="url('./images/icon-error.svg')"
         document.getElementById('subject').focus()
-    }    
+    }      
     
 }

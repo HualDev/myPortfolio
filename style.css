@@ -304,10 +304,12 @@ label{
     margin: 5px 0;
     border-radius: 5px;
     border: solid 2px #2b58aa;
-    padding: 5px;
+    padding: 8px 10px 8px 10px;
+    background-repeat: no-repeat;
+    background-position: 95%;
 }
 
-.contact input[type='button']{
+.contact input[type='submit']{
     width: 50%;
     display: block;
     margin:20px auto 10px;
@@ -319,7 +321,7 @@ label{
     cursor: pointer;
 }
 
-.contact input[type='button']:hover{
+.contact input[type='submit']:hover{
     color: #2b58aa;
     background-color: white;
     box-shadow: 0 3px 8px 0 rgb(0 0 0 / 80%);

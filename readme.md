@@ -27,7 +27,7 @@ Mostrar mis habilidades como desarrollador web.
 ### Links
 
 - Solution URL: [HualDev](https://hualdev.github.io/myPortfolio/)
-- Live Site URL: [Hualdev](https://hualdevportfolio.netlify.app/)
+- Live Site URL: [Hualdev](https://hualdevportafolio.netlify.app/)
 
 ## My process
 

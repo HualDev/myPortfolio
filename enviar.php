@@ -19,4 +19,5 @@ $para = 'hucastillo@gmail.com';
 mail($para, $subject, utf8_decode($message), $header);
 
 header("Location:index.html");
+
 ?>

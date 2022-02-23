@@ -339,8 +339,7 @@ label{
     color: #4b7edd;
     opacity: 0.3;
     font-size: 14px;
-    font-weight: 600;
-    
+    font-weight: 600;    
 }
 
 .error{
@@ -372,8 +371,6 @@ footer h1,h2{
     justify-content: center;
 }
 
-
-
 footer a{
     color: #2b58aa;
     margin: 5px;
@@ -387,6 +384,14 @@ footer a{
 footer a:hover{
     background-color: #4b7edd;
     color: white;
+}
+
+.love{
+    text-align: center;    
+}
+
+.loveI{
+    color: #2b58aa;    
 }
 
 @media(min-width:600px){
